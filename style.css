@@ -1,0 +1,234 @@
+ /* fonts link */
+ @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+#header{
+    background-color: rgb(108, 108, 211);
+    font-size: 10px;
+    padding: 10px; text-align: center;
+    color: aliceblue;
+    word-spacing: 5px;
+    position: relative;
+   
+    
+}
+
+
+#header button{
+    text-align: right;
+    position: absolute;
+    top: 8px;
+    right: 150px;
+    border: none;
+    padding: 5px 10px;
+    background-color: aliceblue;
+    
+}
+
+#header button:hover{
+    background-color: black;
+    color:whitesmoke;
+    font-size: 15px;
+
+}
+
+#navigation_bar ul{
+background-color:white;
+padding: 10px;
+list-style: none;
+text-align: center;
+box-shadow: 2px 2px 2px;
+}
+
+#navigation_bar li{
+    
+    display: inline;
+    margin: 10px;
+    width: 700px;
+}
+
+#navigation_bar li:hover{
+   background-color: rgb(27, 27, 100);
+   padding: 4px;
+   color: aliceblue;
+   border-radius: 10px 0px 10px 0px;
+}
+
+#simple_htmlFrom{
+    width: 70%;
+    margin: 2% auto;
+}
+
+
+#simple_htmlFrom h1{
+    font-size: 30px;
+   font-weight: 300;
+   margin-bottom: 20px;
+}
+
+#simple_htmlFrom h1::selection{
+    background-color: #353b48 ;
+    color:#f5f6fa ;
+}
+
+#html_cssFrom {
+    background-color: rgb(108, 108, 211);
+   padding: 5%;
+    
+}
+
+#html_cssFrom h2{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#html_cssFrom h2::selection{
+    background-color: #b8e994;
+    color: black;
+}
+
+#main_div{
+    width: 70%;
+    background-color: aliceblue;
+    margin: 5% auto;
+    padding: 5%;
+    box-shadow: 1px .5px 1px .5px;
+}
+
+#child_div{
+    width: 50%;
+    padding: 5%;
+    margin: 5% auto;
+    
+}
+
+#child_div h1{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #34ace0;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #3d3d3d;
+    color: white;
+    
+    
+}
+
+#form{
+    text-align: center;
+}
+
+#form label{
+    font-size: 20px;
+    
+}
+#form input{
+    font-size: 15px;
+    outline: none;
+    padding: 5px 10px;
+    margin: 5px;
+    
+}
+
+#form input:hover{
+    background-color: #ebc289;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#form a{
+    text-decoration: none;
+    color: #009432;
+}
+
+#form a:hover{
+    color: #EA2027;
+    font-size: 25px;
+}
+
+#login button{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: #EA2027;
+    font-weight: 900;
+    color: #fff200;
+   
+}
+
+#login button:hover{
+    background-color:#1B1464 ;
+    color: white;
+    font-size: 30px;
+    
+}
+
+#login h2{
+    color:#778ca3 ;
+}
+
+#login h2::selection{
+    background-color: #EA2027;
+    color: aliceblue;
+   
+}
+
+#login .button{
+    background-color: yellow;
+    padding: 5px 50px;
+    color:red;
+}
+
+#footer{
+    background-color: #1B1464;
+    padding: 10px;
+}
+#Follow_us h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#Follow_us h2::selection{
+    background-color: #ffffff;
+    color: #2f3542;
+  
+}
+
+#Follow_us h1{
+    text-align: right;
+    font-size: 10px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+#Follow_us button{
+   font-size: 20px;
+   padding: 5px 20px;
+}
+
+#Follow_us a{
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
